@@ -1,0 +1,89 @@
+.chooseus-style-two {
+    position: relative;
+    padding: 125px 0px 100px 0px;
+}
+.chooseus-style-two .single-item {
+    position: relative;
+    display: block;
+    background: #fff;
+    padding: 33px 30px 36px 130px;
+    margin-bottom: 30px;
+}
+.chooseus-style-two .single-item h5 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.chooseus-style-two .single-item h5 a {
+    color: #131313;
+}
+.chooseus-style-two .single-column .icon-box img {
+    width: 40px;
+    height: 55px;
+}
+.chooseus-style-two .single-item .icon-box {
+    position: absolute;
+    left: 30px;
+    top: 37px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #faf4ec;
+    font-size: 40px;
+    color: #131313;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+.chooseus-style-two .single-item .icon-box:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transform: scale(0,0);
+    background-color: #cb9744;
+    z-index: -1;
+    transition: all 500ms ease;
+}
+.chooseus-style-two .single-item:hover .icon-box:before {
+    transform: scale(1.1);
+}
+.working-process.alternat-2 {
+    position: relative;
+    padding: 125px 0px;
+    background: #fff;
+}
+.working-process.alternat-2 .sec-title h2{
+    color: #131313;
+}
+.working-process .sec-title {
+    margin-bottom: 5px;
+}
+.working-process.alternat-2 .process-block-one .inner-box .count-text {
+    color: #fff;
+    text-shadow: -1px -1px 0 #ebebeb, 1px -1px 0 #ebebeb, -1px 1px 0 #ebebeb, 1px 1px 0 #ebebeb;
+}
+.working-process.alternat-2 .process-block-one .inner-box h3{
+    color: #131313;
+}
+.working-process.alternat-2 .process-block-one .inner-box p{
+    color: #5b5858;
+}
+.elementor-section.news-section{
+    background-image: none;
+    padding: 0;
+}
+.cta-section.centred {
+    padding: 123px 0px 390px;
+}
+.clients-section {
+    position: relative;
+    padding: 130px 0px;
+}

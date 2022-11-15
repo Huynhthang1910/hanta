@@ -1,0 +1,109 @@
+.service-details-page {
+    position: relative;
+    padding: 120px 0 90px;
+}
+.service-category {
+    position: relative;
+    padding: 40px;
+    box-shadow: 0px 10px 50px 0px rgb(12 21 41 / 10%);
+    margin-bottom: 30px;
+}
+.service-category .widget-title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #222;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.service-category ul li {
+    margin-bottom: 14px;
+}
+.service-category ul li a {
+    font-size: 20px;
+    color: #222;
+    font-weight: 500;
+    transition: .5s;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+}
+.service-category ul li.current a,
+.service-category ul li:hover a,
+.service-category ul li a:hover {
+    padding-left: 30px;
+    color: #da3c22;
+}
+.service-category ul li a:before {
+    content: "\f152";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #da3c22;
+    font-size: 20px;
+    opacity: 0;
+    transition: .5s;
+    line-height:22px;
+}
+.service-category ul li.active a:before,
+.service-category ul li:hover a:before {
+    opacity: 1;
+}
+.service-details {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 39px;
+    padding-bottom: 30px;
+}
+.service-details .image {
+    position: relative;
+    margin-bottom: 45px;
+}
+.elementor-widget-container {
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-box-shadow .3s;
+}
+.elementor-widget-container img {
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+}
+
+.service-details h2 {
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.service-details .text {
+    margin-bottom: 30px;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+.service-details .image-gallery {
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+.service-details .image-gallery .image-two {
+    margin-bottom: 20px;
+}
+.elementor-widget-container .image-gallery img {
+    margin-bottom: 20px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: fit-content;
+    max-width: 100%;
+}
+.elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #CA9744;
+    border-radius: 36px 36px 36px 36px;
+    padding: 20px 35px 20px 35px;
+}
+.elementor-button span{
+    color: #fff;
+}

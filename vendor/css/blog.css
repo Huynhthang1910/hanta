@@ -1,0 +1,300 @@
+.sidebar-page-container {
+    position: relative;
+    padding: 120px 0px 130px 0px;
+}
+.sidebar-page-container .blog-standard-content {
+    margin-right: 30px;
+}
+.news-block-one {
+    overflow: hidden;
+}
+.sidebar-page-container .news-block-one .inner-box {
+    margin-bottom: 30px;
+    position: relative;
+    display: block;
+    background-color: #fff;
+}
+.news-block-one .inner-box .image-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: -webkit-linear-gradient(-45deg,#ea7418,#be4007 100%);
+}
+.news-block-one .inner-box .image-box img {
+    width: 100%;
+    transition: all 500ms ease;
+}
+.news-block-one .inner-box:hover .image-box img {
+    transform: scale(1.1);
+    opacity: 0.2;
+}
+.sidebar-page-container .news-block-one .inner-box .lower-content {
+    padding: 30px;
+    border: 2px solid #ebebeb;
+    position: relative;
+}
+.news-block-one .inner-box .lower-content .post-info {
+    position: relative;
+    margin-bottom: 15px;
+}
+.sidebar-page-container .news-block-one .inner-box .lower-content .post-info li {
+    text-transform: uppercase;
+}
+.sidebar-page-container .news-block-one .inner-box .lower-content h2 {
+    display: block;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    color: #131313;
+}
+.sidebar-page-container .news-block-one .inner-box .lower-content h2 a {
+    display: inline-block;
+    color: #131313;
+}
+.sidebar-page-container .news-block-one .inner-box .lower-content p {
+    margin-bottom: 26px;
+}
+.blog-sidebar {
+    position: relative;
+    padding-bottom: 30px;
+}
+.blog-sidebar .bg-color {
+    position: absolute;
+    left: -30px;
+    top: -120px;
+    background: #fbf8f2;
+    width: 5000px;
+    height: calc(100% + 120px);
+    z-index: -1;
+}
+.blog-sidebar .sidebar-widget {
+    padding: 30px;
+    position: relative;
+    display: block;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.blog-sidebar .search-form .form-group {
+    position: relative;
+    margin: 0px;
+}
+.blog-sidebar .search-form .form-group input[type='search'] {
+    border: 1px solid #cb9744;
+    font-size: 15px;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    color: #5b5858;
+    font-weight: 600;
+    padding: 10px 50px 10px 20px;
+    transition: all 500ms ease;
+}
+.blog-sidebar .search-form .form-group button {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 18px;
+    color: #131313;
+    font-weight: 700;
+    background: transparent;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.blog-sidebar .sidebar-widget .post-inner .post h5:hover a,
+.widget_categories ul li:hover a,
+.blog-sidebar .search-form .form-group button:hover {
+    color: #cb9744;
+}
+.blog-sidebar .sidebar-widget .widget-title {
+    position: relative;
+    margin-bottom: 21px;
+}
+.blog-sidebar .sidebar-widget .widget-title h3 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #131313;
+}
+.widget_categories ul li {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.widget_categories ul li a {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5b5858;
+    font-weight: 600;
+    padding: 7px 0px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+.widget_categories ul li a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    background-color: #cb9744;
+    border-radius: 50%;
+}
+.blog-sidebar .post-widget .post {
+    position: relative;
+    display: block;
+    margin-bottom: 23px;
+}
+.blog-sidebar .sidebar-widget .post-inner .post h5 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blog-sidebar .sidebar-widget .post-inner .post h5 a {
+    color: #131313;
+}
+.blog-sidebar .post-widget .post .post-date {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.blog-sidebar .post-widget .post .post-thumb img {
+    width: 100%;
+    transition: all 500ms ease;
+    height: auto;
+}
+.blog-sidebar .post-widget .post .post-thumb {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: #cb9744;
+    margin-bottom: 13px;
+}
+
+.blog-sidebar .post-widget .post:hover .post-thumb img {
+    opacity: 0.2;
+    transform: scale(1.05);
+}
+.blog-sidebar .advice-box {
+    position: relative;
+    display: block;
+    min-height: 530px;
+    padding: 43px 30px 50px 30px;
+    background: #cb9744;
+}
+.blog-sidebar .advice-box .image {
+    position: absolute;
+    top: 0px;
+}
+.blog-sidebar .advice-box p {
+    position: relative;
+    display: block;
+    font-size: 17px;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.blog-sidebar .advice-box h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.blog-sidebar .advice-box .btn-box {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+
+}
+.blog-sidebar .advice-box .btn-box a {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: #131313;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 17px 50px;
+}
+.blog-sidebar .advice-box .btn-box a:hover{
+    background-color: #b73604;
+    color: #fff;
+}
+.sidebar-page-container .pagination-wrapper {
+    padding-top: 60px;
+}
+.pagination li {
+    display: inline-block;
+    margin: 0px 12px;
+}
+.pagination li span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    background: #faf4ec;
+    text-align: center;
+    color: #5b5858;
+    border-radius: 50%;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+.pagination li a {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    background: #faf4ec;
+    text-align: center;
+    color: #5b5858;
+    border-radius: 50%;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+.pagination li a:hover, .pagination li a.current, .pagination li:hover span, .pagination li span.current{
+    background: #cb9744;
+}
+.pagination li a:before, .pagination li span:before {
+    position: absolute;
+    content: '';
+    border: 2px solid #ececec;
+    border-radius: 50%;
+    top: -10px;
+    left: -10px;
+    width: 80px;
+    height: 80px;
+}
+.pagination li a:hover, .pagination li a.current, .pagination li:hover span ,.pagination li span.current  {
+    color: #fff;
+}

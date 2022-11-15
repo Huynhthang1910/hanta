@@ -1,0 +1,116 @@
+section.contact-section.sec-pad:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #ca97440f;
+    width: 85%;
+    height: 100%;
+}
+.contact-section .contact-info-box {
+    text-align: center;
+    position: relative;
+    margin-right: 10px;
+}
+.contact-background {
+    position: absolute;
+    left: -230px;
+    font-size: 150px;
+    top: 0px;
+    color: #ca974429;
+    width: 125px;
+    height: 125px;
+    opacity: 0.2;
+}
+.contact-section .contact-info-box .sec-title {
+    margin-bottom: 45px;
+}
+.contact-section .contact-info-box .text {
+    position: relative;
+    margin-bottom: 28px;
+}
+.contact-section .contact-info-box .social-links {
+    display: table;
+    margin: 0 auto;
+}
+.contact-section .contact-info-box .social-links li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.contact-section .contact-info-box .social-links li a {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #5b5858;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    border: 3px solid #e2e2e2;
+    border-radius: 50%;
+    text-align: center;
+}
+.contact-section .contact-info-box .social-links li a:hover {
+    background:#cb9744;
+    border-color:#cb9744;
+    color: #fff;
+}
+.contact-section .form-inner {
+    text-align: center;
+    position: relative;
+    margin-right: 50px;
+}
+.contact-section .form-inner .contact-background-2 {
+    position: absolute;
+    right: -195px;
+    font-size: 150px;
+    bottom: 0px;
+    transform: rotate(0deg);
+    color: #ca974454;
+    width:125px;
+    height: 125px;
+    opacity:0.2;
+}
+section.contact-section.sec-pad .row {
+    align-items: center;
+}
+.contact-section .form-inner .default-form .form-group {
+    position: relative;
+    margin-bottom: 34px;
+}
+.contact-section .form-inner .default-form .form-group label {
+    display: none;
+}
+.contact-section .form-inner .default-form .form-group input[type='text'], .contact-section .form-inner .default-form .form-group input[type='email'], .contact-section .form-inner .default-form .form-group textarea {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #dbdbdb;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5b5858;
+    padding: 10px 20px;
+    transition: all 500ms ease;
+}
+.contact-section .form-inner .default-form .form-group textarea {
+    resize: none;
+    height: 150px;
+    display: block;
+}
+.google-map-section {
+    position: relative;
+    width: 100%;
+}
+.google-map-section .gmap_canvas {
+    margin-bottom: -8px;
+}
+.google-map-section .gmap_canvas #map {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+.form-group.message-btn {
+    margin-bottom: 0 !important;
+}
